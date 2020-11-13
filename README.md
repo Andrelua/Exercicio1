@@ -1,2 +1,2 @@
-# Exercicio1
+# Exercicios 1
 Softex
