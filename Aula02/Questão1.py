@@ -7,4 +7,3 @@ print(f'O dividendo da equação é o nº {numero1}.')
 print(f'O divisor da equação é o nº {numero2}.')
 print(f'O quociente da equação é {round((numero1 / numero2),2)}')
 print(f'O resto da equação é {numero1 % 2}')
-
