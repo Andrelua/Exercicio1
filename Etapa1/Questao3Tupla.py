@@ -1,0 +1,1 @@
+# Crie dois vetores A e B, preencha cada um com 5 valores e por último calcule: C = A - B. Utilize tupla.

@@ -1,0 +1,1 @@
+# Preencha um vetor com 50 posições com a seguinte fórmula: (i + 5 * i) % ( i + 1), sendo i a posição no vetor. Imprima os valores. Utilize tupla.
