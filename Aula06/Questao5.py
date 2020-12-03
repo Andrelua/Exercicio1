@@ -7,3 +7,13 @@ Ao final do programa deve-se exibir apenas as palavras palíndromos na
 lista.
 A lista não pode ter palavras iguais e deve ser ordenada por ordem
 alfabética"""
+
+def palindromo(*lista):
+    for i in range(0,len(lista)):
+        if (lista[i] == lista[i][::-1]):
+            print(f"A palavra {lista[i]} é um palíndromo.")
+        else:
+            print(f"A palavra {lista[i]} não é um palíndromo.")
+
+
+palindromo("andré", "arara", "cebola")
