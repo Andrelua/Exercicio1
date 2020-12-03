@@ -2,12 +2,16 @@
 dado o valor da conta de um restaurante, calcule e exiba a gorjeta do
 garçom e o valor total da conta acrescentando essa gorjeta.
 Esse programa também deve permitir o não pagamento da gorjeta.
-5. Faça um programa que possui uma função para verificar se n palavras
-são palíndromos (é toda palavra ou frase que pode ser lida de trás pra
-frente e que, independente da direção, mantém o seu sentido).
-Essa função tem como parâmetro uma lista desses nomes que serão
-inseridos através da digitação.
-Ao final do programa deve-se exibir apenas as palavras palíndromos na
-lista.
-A lista não pode ter palavras iguais e deve ser ordenada por ordem
-alfabética"""
+"""
+
+
+def pagamento(valor=0):
+    if valor == 0:
+        print(f"O valor da conta deu igual a: R$ {valor}")
+    else:
+        gorjeta = 0.1
+        valor = valor + (valor * gorjeta)
+        print(f"O valor da conta com a gorjeta deu igual a: R$ {valor}")
+
+pagamento()
+pagamento(1500)
