@@ -12,12 +12,12 @@ import random as rd
 filmes = ("O Poço", "Sementes Podres", "Bacurau", "Corra", "Um Lugar Silencioso")
 filmes18 = ("Corra", "Um Lugar Silencioso")
 
-horario = float(input("Em que horário irão assistir o filme (EX: 18.30): "))
+horario = float(input("Em que horário irão assistir o filme entre 15:00 e 22:00 (EX: 18.30): "))
 
 i = 0
 if horario < 18:
     i = rd.randint(0,4)
-    print(f"Vamos assitir o filme {filmes[i]}")
+    print(f"Vamos assitir o filme {filmes[i]}.")
 else:
     i = rd.randint(0,1)
-    print(f"Vamos assitir o filme {filmes18[i]}")
+    print(f"Vamos assitir o filme {filmes18[i]}.")
