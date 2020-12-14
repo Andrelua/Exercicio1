@@ -12,3 +12,7 @@ repetir em outro jogo.
 Além de exibir na tela o resultado do palpite.
 Você criar um arquivo com os mesmos resultados.
 """
+from os import write
+
+with open('Palpite.txt', 'w') as arquivo:
+    arquivo.write()
