@@ -20,6 +20,7 @@ def combustivel():
         print(f"{i+1} - {carros[i][0]} - {carros[i][1]} - {litros[i]:.2f} litros - R$ {consumo[i]:.2f}")
 
     menor = 9999999
+    nome =  ''
     for i in range(5):
         if consumo[i] < menor:
             menor = consumo[i]
