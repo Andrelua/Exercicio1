@@ -2,7 +2,7 @@
 
 def controle():
 
-    mouses = [0, 0, 0, 0]
+    mouses = [0]*4
     calculo = []
     
     while True:
