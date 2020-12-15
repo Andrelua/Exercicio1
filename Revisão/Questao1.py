@@ -7,17 +7,20 @@ def intervalo(i, inicio, fim):
 
 def comissao():
     salario = []
+    counters = 5
     while True:
         
         vendaBruta = int(input("Venda bruta do vendedor: "))
         retorno = (200 + (0.09 * vendaBruta))
 
         salario.append(retorno)
-
-        saida = input("Deseja encerrar (Y/N)? ")
-        if saida == 'Y':
-            break
-    
+        counters -= 1
+        if counters == 0:
+            counters = 5
+            saida = input("Deseja encerrar (Y/N)? ")
+            if saida == 'Y':
+                break
+    # print(salario) Teste
     contagem(salario)
 
 def contagem(salarios):
