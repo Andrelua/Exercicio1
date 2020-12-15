@@ -10,7 +10,7 @@ def comissao():
     counters = 5
     while True:
         
-        vendaBruta = int(input("Venda bruta do vendedor: "))
+        vendaBruta = float(input("Venda bruta do vendedor: "))
         retorno = (200 + (0.09 * vendaBruta))
 
         salario.append(retorno)
